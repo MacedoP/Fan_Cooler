@@ -1,0 +1,12 @@
+@charset "UTF=8";
+/*
+    As configuracoes feitas dentro serviram para quando as telas estiverem na horizontal
+*/
+
+body{
+    /*Esta cor colocado aqui lembra que ela so sera mostrado quano a largura for maior que a altura*/
+   background-image: url(./horizontal.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventilador</title>
+    <link rel="stylesheet" href="style.css" media="all"/> 
+    <link rel="stylesheet" href="estiloParaImpressao.css" media="print"/> 
+    <link rel="stylesheet" href="primeiroFone.css">
+    <!--Estes dois links acima servem para medias types= referente ao stipos demedia media="all" = serve para todas as telas-->
+    <link rel="stylesheet" href="minhasMediasAll.css" media="all">
+    <link rel="stylesheet" href="telaNaVertical.css" media="screen and  (orientation: portrait)">  
+    <link rel="stylesheet" href="letaNaHorizontal.css" media="screen and (orientation: landscape)"/>
+
+
+    <!--Estes dois links acima servem para medias filters referente a caracteristica de media-->
+</head>
+<body>
+    <main class="container">
+        <div class="imagem">
+            <img src="./fan.png" alt="" id="imgVent">
+        </div>
+        <div class="botoes">
+            <button class="bnt" id="btnOn"><abbr title="Click para ligar">ON</abbr></button>
+            <button class="bnt" id="btnOff"><abbr title="Click para desligar">OFF</abbr></button>
+            <button class="bnt" id="btnV1">1</button>
+            <button class="bnt" id="btnV2">2</button>
+            <button class="bnt" id="btnV3">3</button>
+        </div>
+
+        <script src="ventilador.js"></script>
+
+    </main>
+    
+</body>
+</html>

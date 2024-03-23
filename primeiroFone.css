@@ -1,0 +1,55 @@
+@charset "UTF-8";/*!
+/*
+    Aqui vamos criar as nossas midias para diferentes telas
+*/
+/*
+    Tela pequenas
+*/
+@media screen and (min-width:  320px)  and (max-width: 568px){/*FONES MUITO PEQUENOS*/
+    body{
+        background-image: url(./vertical.jpg);
+        overflow: hidden;
+    }
+    .container{
+        width: 100vw;
+    }
+    .botoes{
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+    
+}
+@media screen and (min-width:  568px)  and (max-width: 768px){/*FONES MUITO NORMAS*/
+    body{
+        background-image: url(./vertical.jpg);
+    }
+    .botoes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+}
+@media  screen and (min-width: 768px) and (max-width: 992px) {/*TABLETS*/
+    body{
+        background-image: url(./horizontal.jpg);
+    }
+   
+    
+}
+@media screen and (min-width:  992px)  and (max-width:  1200px){/*DESKTOPS*/
+    body{
+        background-image: url(./horizontal.jpg);
+    }
+
+    
+}
+@media screen and (min-width:   1200px) and (max-width: 1400px){/*GRANDES TELAS*/
+    body{
+        background-image: url(./horizontal.jpg);
+    }
+
+    
+}
